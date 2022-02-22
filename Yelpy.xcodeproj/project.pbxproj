@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2173922927C59BB7006A791D /* RestaurantService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2173922827C59BB7006A791D /* RestaurantService.swift */; };
+		2173922B27C59C90006A791D /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2173922A27C59C90006A791D /* Restaurant.swift */; };
 		21BB5E7E27C56FD400A674D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BB5E7D27C56FD400A674D1 /* AppDelegate.swift */; };
 		21BB5E8027C56FD400A674D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BB5E7F27C56FD400A674D1 /* SceneDelegate.swift */; };
-		21BB5E8227C56FD400A674D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BB5E8127C56FD400A674D1 /* ViewController.swift */; };
+		21BB5E8227C56FD400A674D1 /* RestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BB5E8127C56FD400A674D1 /* RestaurantViewController.swift */; };
 		21BB5E8527C56FD400A674D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21BB5E8327C56FD400A674D1 /* Main.storyboard */; };
 		21BB5E8727C56FD500A674D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21BB5E8627C56FD500A674D1 /* Assets.xcassets */; };
 		21BB5E8A27C56FD500A674D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21BB5E8827C56FD500A674D1 /* LaunchScreen.storyboard */; };
 		21BB5E9527C56FD500A674D1 /* YelpyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BB5E9427C56FD500A674D1 /* YelpyTests.swift */; };
 		21BB5E9F27C56FD500A674D1 /* YelpyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BB5E9E27C56FD500A674D1 /* YelpyUITests.swift */; };
 		21BB5EA127C56FD500A674D1 /* YelpyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BB5EA027C56FD500A674D1 /* YelpyUITestsLaunchTests.swift */; };
+		21BB5EAE27C5775B00A674D1 /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BB5EAD27C5775B00A674D1 /* RestaurantTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2173922827C59BB7006A791D /* RestaurantService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantService.swift; sourceTree = "<group>"; };
+		2173922A27C59C90006A791D /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		21BB5E7A27C56FD400A674D1 /* Yelpy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Yelpy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21BB5E7D27C56FD400A674D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21BB5E7F27C56FD400A674D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		21BB5E8127C56FD400A674D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		21BB5E8127C56FD400A674D1 /* RestaurantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewController.swift; sourceTree = "<group>"; };
 		21BB5E8427C56FD400A674D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		21BB5E8627C56FD500A674D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21BB5E8927C56FD500A674D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +54,7 @@
 		21BB5E9A27C56FD500A674D1 /* YelpyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YelpyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21BB5E9E27C56FD500A674D1 /* YelpyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpyUITests.swift; sourceTree = "<group>"; };
 		21BB5EA027C56FD500A674D1 /* YelpyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		21BB5EAD27C5775B00A674D1 /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +107,14 @@
 			children = (
 				21BB5E7D27C56FD400A674D1 /* AppDelegate.swift */,
 				21BB5E7F27C56FD400A674D1 /* SceneDelegate.swift */,
-				21BB5E8127C56FD400A674D1 /* ViewController.swift */,
+				21BB5E8127C56FD400A674D1 /* RestaurantViewController.swift */,
+				21BB5EAD27C5775B00A674D1 /* RestaurantTableViewCell.swift */,
 				21BB5E8327C56FD400A674D1 /* Main.storyboard */,
 				21BB5E8627C56FD500A674D1 /* Assets.xcassets */,
 				21BB5E8827C56FD500A674D1 /* LaunchScreen.storyboard */,
 				21BB5E8B27C56FD500A674D1 /* Info.plist */,
+				2173922827C59BB7006A791D /* RestaurantService.swift */,
+				2173922A27C59C90006A791D /* Restaurant.swift */,
 			);
 			path = Yelpy;
 			sourceTree = "<group>";
@@ -258,8 +267,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21BB5E8227C56FD400A674D1 /* ViewController.swift in Sources */,
+				21BB5EAE27C5775B00A674D1 /* RestaurantTableViewCell.swift in Sources */,
+				21BB5E8227C56FD400A674D1 /* RestaurantViewController.swift in Sources */,
+				2173922B27C59C90006A791D /* Restaurant.swift in Sources */,
 				21BB5E7E27C56FD400A674D1 /* AppDelegate.swift in Sources */,
+				2173922927C59BB7006A791D /* RestaurantService.swift in Sources */,
 				21BB5E8027C56FD400A674D1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
